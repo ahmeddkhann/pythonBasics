@@ -37,3 +37,5 @@
 #result = name.rpartition() # rpartitions the string into three parts
 #result = name.splitlines() # splits the string into a list of lines
 #result = name.swapcase() # swaps the case of the string
+#result = name.count(a) # count the number of a in string
+
