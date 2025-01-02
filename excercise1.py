@@ -22,6 +22,11 @@ import math
 # math.ceil() gives the smallest integer not less than the given number || 9.1 = 10
 # math.floor() gives the largest integer not greater than the given number || 9.8 = 9
 
-radius = float(input("enter radius of a circle"))
-circumference = 2 * math.pi * radius 
-print(f"total circumference of radius {radius} is {circumference}")
+#radius = float(input("enter radius of a circle"))
+#circumference = 2 * math.pi * radius 
+#print(f"total circumference of radius {radius} is {circumference}")
+
+
+radius = float(input("enter radius of a circle in cm "))
+area = math.pi * pow(radius, 2)
+print(f"total area is {round(area, 2)} cm^2")
