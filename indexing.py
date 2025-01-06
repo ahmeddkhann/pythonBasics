@@ -14,3 +14,7 @@ print(cnic_number[:3]) #will print from start to index 3 exluxsively index 3 // 
 print(cnic_number[::2]) #will print one and leave one .(in this case) // 1982-3298
 print(cnic_number[::3]) #will print one and leave two in this case // 12282-
 print(cnic_number[-1]) #negative indexing prints from end // 2
+
+
+
+
