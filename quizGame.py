@@ -26,12 +26,38 @@ for question in questions:
     print(question)
     for option in options[questionNum]:
         print(option)
-        
+
     guess = input("Enter A, B, C, D ").upper()
     guesses.append(guess)
-
+    if guess == answers[questionNum]:
+        score += 1
+        print("CORRECT !!!")
+    else: 
+        print("INCORRECT !!")
+        print(f"correct answer is {answers[questionNum]}")
      
-                    
-
-    
     questionNum += 1
+
+
+print("---------------------------")
+print("-----Quiz is over !!!!-----")
+print("------------Result---------")
+print("---------------------------")
+
+print("answers: ", end=" ")
+print()
+for answer in answers: 
+    print (answer, end=" ")
+
+print()
+print("guesses: ", end=" ")
+for guess in guesses: 
+    print(guess, end=" ")
+
+score = int(score / len(questions) * 100)
+print(f"your total score is {score}%")
+
+if score <= 40:
+    print("You failed the quiz!")
+else:
+    print("You passed the quiz!")
