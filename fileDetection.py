@@ -1,6 +1,6 @@
 import os
 
-file_path = "bankingSystem.py"
+file_path = "test"
 
 if os.path.exists(file_path):
     print(f"{file_path} exists")
@@ -8,7 +8,7 @@ if os.path.exists(file_path):
     if os.path.isfile(file_path):
         print(f"that is a file!")
     elif os.path.isdir(file_path):
-        print(f"that is a directory!")
+        print(f"that is a directory/folder!")
     else:
         print(f"{file_path} is not a file neither a directory")
 else:
