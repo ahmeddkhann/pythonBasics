@@ -47,6 +47,29 @@ def power ():
     except ValueError:
         input("please enter integers only")
 
+def main ():
+    print("*********CALCULATOR************")
+    print("1. Addition")
+    print("2. Subtraction")
+    print("3. Multiplication")
+    print("4. Division")
+    print("5. Power")
+    choice = input("select an option ")
+    if choice == "1":
+        addition()
+    elif choice == "12":
+        subtraction()
+    elif choice == "3":
+        multiplication()
+    elif choice == "4":
+        division()
+    elif choice == "5":
+        power()
+    else:
+        print("invalid choice")
 
+if __name__ == "__main__":
+    main()
+  
 
 
