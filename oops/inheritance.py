@@ -6,7 +6,8 @@ class Car:
         self.year = year
 
     def fullDetails(self):
-        return f"Brand: {self.brand}, Model: {self.model}, Speed: {self.speed }, Year: {self.year} "
+        return f"""Brand: {self.brand}, Model: {self.model},
+          Speed: {self.speed }, Year: {self.year} """
     
 
 class ElectricCar(Car):
