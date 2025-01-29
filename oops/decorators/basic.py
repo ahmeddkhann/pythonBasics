@@ -32,3 +32,8 @@ def greetings(name, profession):
     print(f"so your name is {name} and your profession is {profession}")
 
 greetings("Ahmed", "programmer")
+
+
+# so basically decortaors are the function that accepts a function in argument and the nested function accepts the arguments of the passed function
+# and the nested function returns the result of passed function. when to use a decorator, we use @ and the function name above the function that should
+# be decorated.
