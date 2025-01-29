@@ -40,10 +40,10 @@ brand = input("enter the brand of your car: ")
 model = input("enter the model of your car: ")
 speed = input("enter the speed of your car: ")
 year = int(input("enter the year of your car: "))
-checkAutomaticivity = print("Is your car automatic? enter y for yes and n for no" )
+checkAutomaticivity = input("Is your car automatic? enter y for yes and n for no " )
 
 if checkAutomaticivity == "Y" or checkAutomaticivity == "y":
-    checkElectricivity = input("is your card electric or not? enter y for yes and n for no")
+    checkElectricivity = input("is your card electric or not? enter y for yes and n for no ")
 
     if checkElectricivity == "Y" or checkElectricivity == "y":
         battery_capacity = input("enter the battery capacity: ")
